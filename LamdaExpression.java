@@ -20,6 +20,16 @@ public class LamdaExpression {
      //Constructor
         public void display() {
             r.input("A", "B", "C", "D");
+//For user Input in terminal
+/*
+Scanner sc = new Scanner(System.in);
+            System.out.print("Enter input separated by spaces: ");
+            String input = sc.nextLine();
+            String[] args1 = input.split("\\s+");
+            r.input(args1);
+            sc.close();
+*/
+		
         }}
     public static void main(String[] args) {
     	
